@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="byteline-sdk",
-    version="1.0.0",
+    version="1.0.1",
     author="Devinder Singh",
     author_email="dsingh@byteline.io",
     description="Package to easily use Byteline REST APIs",
@@ -19,4 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=['requests'],
 )
